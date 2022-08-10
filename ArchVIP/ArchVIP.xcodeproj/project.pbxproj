@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBE238228A3EAB800B46B78 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE238128A3EAB800B46B78 /* Tests_iOS.swift */; };
+		6EBE238428A3EAB800B46B78 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE238328A3EAB800B46B78 /* Tests_iOSLaunchTests.swift */; };
+		6EBE238E28A3EAB800B46B78 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE238D28A3EAB800B46B78 /* Tests_macOS.swift */; };
+		6EBE239028A3EAB800B46B78 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE238F28A3EAB800B46B78 /* Tests_macOSLaunchTests.swift */; };
+		6EBE239128A3EAB800B46B78 /* ArchVIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE236928A3EAB600B46B78 /* ArchVIPApp.swift */; };
+		6EBE239228A3EAB800B46B78 /* ArchVIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE236928A3EAB600B46B78 /* ArchVIPApp.swift */; };
+		6EBE239328A3EAB800B46B78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE236A28A3EAB600B46B78 /* ContentView.swift */; };
+		6EBE239428A3EAB800B46B78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE236A28A3EAB600B46B78 /* ContentView.swift */; };
+		6EBE239528A3EAB800B46B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE236B28A3EAB800B46B78 /* Assets.xcassets */; };
+		6EBE239628A3EAB800B46B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE236B28A3EAB800B46B78 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EBE237E28A3EAB800B46B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBE236428A3EAB600B46B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBE236F28A3EAB800B46B78;
+			remoteInfo = "ArchVIP (iOS)";
+		};
+		6EBE238A28A3EAB800B46B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBE236428A3EAB600B46B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBE237528A3EAB800B46B78;
+			remoteInfo = "ArchVIP (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EBE236928A3EAB600B46B78 /* ArchVIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchVIPApp.swift; sourceTree = "<group>"; };
+		6EBE236A28A3EAB600B46B78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EBE236B28A3EAB800B46B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBE237028A3EAB800B46B78 /* ArchVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBE237628A3EAB800B46B78 /* ArchVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBE237828A3EAB800B46B78 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6EBE237D28A3EAB800B46B78 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBE238128A3EAB800B46B78 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		6EBE238328A3EAB800B46B78 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		6EBE238928A3EAB800B46B78 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBE238D28A3EAB800B46B78 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		6EBE238F28A3EAB800B46B78 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBE236D28A3EAB800B46B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE237328A3EAB800B46B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE237A28A3EAB800B46B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE238628A3EAB800B46B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBE236328A3EAB600B46B78 = {
+			isa = PBXGroup;
+			children = (
+				6EBE236828A3EAB600B46B78 /* Shared */,
+				6EBE237728A3EAB800B46B78 /* macOS */,
+				6EBE238028A3EAB800B46B78 /* Tests iOS */,
+				6EBE238C28A3EAB800B46B78 /* Tests macOS */,
+				6EBE237128A3EAB800B46B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBE236828A3EAB600B46B78 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE236928A3EAB600B46B78 /* ArchVIPApp.swift */,
+				6EBE236A28A3EAB600B46B78 /* ContentView.swift */,
+				6EBE236B28A3EAB800B46B78 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6EBE237128A3EAB800B46B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE237028A3EAB800B46B78 /* ArchVIP.app */,
+				6EBE237628A3EAB800B46B78 /* ArchVIP.app */,
+				6EBE237D28A3EAB800B46B78 /* Tests iOS.xctest */,
+				6EBE238928A3EAB800B46B78 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBE237728A3EAB800B46B78 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE237828A3EAB800B46B78 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6EBE238028A3EAB800B46B78 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE238128A3EAB800B46B78 /* Tests_iOS.swift */,
+				6EBE238328A3EAB800B46B78 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		6EBE238C28A3EAB800B46B78 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE238D28A3EAB800B46B78 /* Tests_macOS.swift */,
+				6EBE238F28A3EAB800B46B78 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBE236F28A3EAB800B46B78 /* ArchVIP (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBE239928A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "ArchVIP (iOS)" */;
+			buildPhases = (
+				6EBE236C28A3EAB800B46B78 /* Sources */,
+				6EBE236D28A3EAB800B46B78 /* Frameworks */,
+				6EBE236E28A3EAB800B46B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArchVIP (iOS)";
+			productName = "ArchVIP (iOS)";
+			productReference = 6EBE237028A3EAB800B46B78 /* ArchVIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBE237528A3EAB800B46B78 /* ArchVIP (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBE239C28A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "ArchVIP (macOS)" */;
+			buildPhases = (
+				6EBE237228A3EAB800B46B78 /* Sources */,
+				6EBE237328A3EAB800B46B78 /* Frameworks */,
+				6EBE237428A3EAB800B46B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArchVIP (macOS)";
+			productName = "ArchVIP (macOS)";
+			productReference = 6EBE237628A3EAB800B46B78 /* ArchVIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBE237C28A3EAB800B46B78 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBE239F28A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				6EBE237928A3EAB800B46B78 /* Sources */,
+				6EBE237A28A3EAB800B46B78 /* Frameworks */,
+				6EBE237B28A3EAB800B46B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBE237F28A3EAB800B46B78 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 6EBE237D28A3EAB800B46B78 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6EBE238828A3EAB800B46B78 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBE23A228A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				6EBE238528A3EAB800B46B78 /* Sources */,
+				6EBE238628A3EAB800B46B78 /* Frameworks */,
+				6EBE238728A3EAB800B46B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBE238B28A3EAB800B46B78 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 6EBE238928A3EAB800B46B78 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBE236428A3EAB600B46B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6EBE236F28A3EAB800B46B78 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6EBE237528A3EAB800B46B78 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6EBE237C28A3EAB800B46B78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6EBE236F28A3EAB800B46B78;
+					};
+					6EBE238828A3EAB800B46B78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6EBE237528A3EAB800B46B78;
+					};
+				};
+			};
+			buildConfigurationList = 6EBE236728A3EAB600B46B78 /* Build configuration list for PBXProject "ArchVIP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBE236328A3EAB600B46B78;
+			productRefGroup = 6EBE237128A3EAB800B46B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EBE236F28A3EAB800B46B78 /* ArchVIP (iOS) */,
+				6EBE237528A3EAB800B46B78 /* ArchVIP (macOS) */,
+				6EBE237C28A3EAB800B46B78 /* Tests iOS */,
+				6EBE238828A3EAB800B46B78 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBE236E28A3EAB800B46B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBE239528A3EAB800B46B78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE237428A3EAB800B46B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBE239628A3EAB800B46B78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE237B28A3EAB800B46B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE238728A3EAB800B46B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBE236C28A3EAB800B46B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBE239328A3EAB800B46B78 /* ContentView.swift in Sources */,
+				6EBE239128A3EAB800B46B78 /* ArchVIPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE237228A3EAB800B46B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBE239428A3EAB800B46B78 /* ContentView.swift in Sources */,
+				6EBE239228A3EAB800B46B78 /* ArchVIPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE237928A3EAB800B46B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBE238428A3EAB800B46B78 /* Tests_iOSLaunchTests.swift in Sources */,
+				6EBE238228A3EAB800B46B78 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBE238528A3EAB800B46B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBE239028A3EAB800B46B78 /* Tests_macOSLaunchTests.swift in Sources */,
+				6EBE238E28A3EAB800B46B78 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EBE237F28A3EAB800B46B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBE236F28A3EAB800B46B78 /* ArchVIP (iOS) */;
+			targetProxy = 6EBE237E28A3EAB800B46B78 /* PBXContainerItemProxy */;
+		};
+		6EBE238B28A3EAB800B46B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBE237528A3EAB800B46B78 /* ArchVIP (macOS) */;
+			targetProxy = 6EBE238A28A3EAB800B46B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EBE239728A3EAB800B46B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EBE239828A3EAB800B46B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6EBE239A28A3EAB800B46B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NZ7WSYJDB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fernandaAndreia.ArchVIP;
+				PRODUCT_NAME = ArchVIP;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EBE239B28A3EAB800B46B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3NZ7WSYJDB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fernandaAndreia.ArchVIP;
+				PRODUCT_NAME = ArchVIP;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBE239D28A3EAB800B46B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fernandaAndreia.ArchVIP;
+				PRODUCT_NAME = ArchVIP;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EBE239E28A3EAB800B46B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fernandaAndreia.ArchVIP;
+				PRODUCT_NAME = ArchVIP;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6EBE23A028A3EAB800B46B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandaAndreia.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArchVIP (iOS)";
+			};
+			name = Debug;
+		};
+		6EBE23A128A3EAB800B46B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandaAndreia.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArchVIP (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBE23A328A3EAB800B46B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandaAndreia.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ArchVIP (macOS)";
+			};
+			name = Debug;
+		};
+		6EBE23A428A3EAB800B46B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandaAndreia.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ArchVIP (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBE236728A3EAB600B46B78 /* Build configuration list for PBXProject "ArchVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBE239728A3EAB800B46B78 /* Debug */,
+				6EBE239828A3EAB800B46B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBE239928A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "ArchVIP (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBE239A28A3EAB800B46B78 /* Debug */,
+				6EBE239B28A3EAB800B46B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBE239C28A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "ArchVIP (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBE239D28A3EAB800B46B78 /* Debug */,
+				6EBE239E28A3EAB800B46B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBE239F28A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBE23A028A3EAB800B46B78 /* Debug */,
+				6EBE23A128A3EAB800B46B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBE23A228A3EAB800B46B78 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBE23A328A3EAB800B46B78 /* Debug */,
+				6EBE23A428A3EAB800B46B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBE236428A3EAB600B46B78 /* Project object */;
+}
